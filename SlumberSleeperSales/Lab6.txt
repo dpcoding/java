@@ -1,0 +1,28 @@
+Lab6
+Problem A: Summer Warming in the Yukon. Objectives: File I/O, Validating data, using the File class. 
+You have collected a series of daily temperatures from instrument readings over the summer hoping to track possible climate changes in the Yukon. You now need to create a report for a meeting with your colleagues to discuss these temperature variations. The integer numbers, now contained in a file, need to be validated to be within an expected range of -15 degrees Fahrenheit to +105 degrees Fahrenheit. Edit and discard any number outside this range as an invalid instrument reading. Your report should print out the number of valid temperatures collected, the average, highest, and lowest temperatures. Read in the name of the file from the keyboard and make sure you test to see if the input file exists before you try to open it. It it doesn't exist, loop back and ask the user for another file name. Use this file for the run you turn in. .
+
+Problem B: Slumber Sleeper Sales. Objectives: File I/O using PrintWriter, Scanner, & the File class, validating input data, creating a report with subtotal & total breaks.
+
+The Slumber Sleeper is a franchise mattress outlet store which deals in volume sales. You own three of these stores in towns located nearby and want a daily report of each store's sales activity. At the end of the day, each store manager creates a daily sales file which contains the amount for each item sold. Your program needs to read each store's file of sales and validate these amounts to be between $20.00 (your lowest priced bed frame) and $3,456.00 (your most expensive mattress set including frame). Edit and discard any number outside this range by writing the amount as an error to another text file named appropriately for the store. Hint: you many generate a part of each filename by using the loop count, ie. Store1, Store2, Store3.
+For each store print out each of the valid sales amounts, their total sales amount, and the average, highest, and lowest sale. After processing each of the stores, print out a combined summary showing the daily average and total sales amount for the stores. Important! - Make sure you pseudo code this first. The logic will contain nested looping and if structures. Also, remember to declare object variables for your files outside a block structure if it will be needed both inside and outside of the block. Once declared however, it can be instantiated inside a block structure if appropriate, ie. to represent separate stores.
+Finally, you'll need to print an Error Report by reading each of the Error text files that were created for the stores and printing each error amount. If there were no errors for a store (and therefore no error file), print a message indicating that there were no errors for that store. Hint: use the file class to see whether the error files exists, or if it exists has 0 errors in it. (find the length of the file to determine the latter.)
+Use the following data files for the run you turn in: SlumberSleeperSales.zip. Your final output should look similar to below. Additionally, as part of your execution you will need to turn in a printout of each store's error text file that was created in addition to the reports.
+Slumber Sleeper Stores Daily Report
+Store1
+$xxx.xx
+$xx.xx
+Total: $xx,xxx.xx
+Average: $xxx.xx, Lowest: $xx.xx, Highest: $x,xxx.xx
+
+Store2....
+Store3 .....
+
+Slumber Sleeper Stores
+Daily Average Sales $x,xxx.xx, Total Sales: $xx,xxx.xx
+
+Slumber Sleeper Stores Daily Error Report
+Store1: -xx.xx, xxxx.xx, x.xx
+Store2: No Errors
+Store3: xx.xxx 
+

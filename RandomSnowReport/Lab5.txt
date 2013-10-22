@@ -1,0 +1,23 @@
+Lab5
+Problem A: Paradise Mountain Snow Report. Objectives: Understand generating random numbers, and using For loops. 
+
+The Paradise Mountain Resort would like to graph the daily snow fall during the early part of the ski season. You are to design a simple class that gives the amount of snow precipitation (in inches) for a day. You will have only one (no argument) constructor which should initialize the amount of snow by using the random number generator to set the number of inches between 0 and 20 inches. (Hint: your snow amount received from the generator will be a real number between 0 - 1.0. You will need to scale that number into a 0.0 - 20.0 amount.)
+Include a method that returns the amount of snow, and a method which returns a String containing a bar of stars representing the amount of snow. Each star on your bar should represent an interval of each half inch of snow. (Hint: use a for loop to create a String of *'s for the graph.)
+Your application program should create 15 days of objects, then produce a report displaying the inches of snow and a bar chart for each day. Your report should look similar to the one below.
+
+Paradise Mountain Snow Report
+Day Inches Snow Fall Chart
+1 3.95 ********
+2 10.65 *********************
+3 18.5 *************************************
+
+Problem B: Year Dates. Objectives: Understanding the Switch structure, helper methods, and using a While loop with a sentinel value.
+
+You are to make a class called Year2012 to manipulate dates when given a month(mm), or a month plus a day(dd) as integer values. It has the following get methods: 
+1) MonthName which returns a String value that is the name of the Month, e.g. September, June, May, etc.
+2) DaysInMonth which returns the number of days in the month. 
+3)DayOfTheYear which returns the ordinal year date (a number between 1-365, often called the Julian date). Hint, use a for loop to add the days in each prior month, and then add the current month's days.
+ 4) DayOfWeek which returns a String value which is the name of the day, e.g. Monday, Tuesday, etc.
+Some of these methods can be used as 'helper' methods for others. All methods will use a switch statement either directly or indirectly. Each method computes a return value from the values sent to it, therefore there are no class attributes, and only a default constructor. All logic must be contained in your own methods. (ie. You will not use existing API classes for your logic.)
+Design a tester application that asks the user for a month and day, and then displays the name of the month, the number of days in the month, the day of the week for this date, and the Julian date for this day. Write your program to process dates using a While loop until a sentinel value is entered. Run your program multiple times to test out different days, but turn in a final run using the following five dates: Jan.1, Apr.18, Aug.2, Nov.28, & Dec.15.
+

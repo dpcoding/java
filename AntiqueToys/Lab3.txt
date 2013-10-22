@@ -1,0 +1,18 @@
+Lab3
+Starting with Lab3, all Labs need to include: 
+1) a UML diagram of the utility class (not the driver), showing class variable names and methods (including constructors) with their visibility, data or return type, and where appropriate a parameter list.  
+2) a Java Doc printout of this class(not the driver) showing your own Java Doc Comments for the class and each method your write.  I.E., your code must have Java Doc comments on all methods. Instead of printing the Java doc's, upload a .pdf (preferred) or the .html(&folder) electronically in Moodle.    [If the print menu item for the JavaDoc is not showing in jGrasp, on the menu Bar go to Settings, Documentation Setting, and click the box for 'showing outside jGrasp'.  The Java Doc will then come up under the default browser and you can use the browser's Save As html or it's Print function if you can produce a .pdf file.]  
+3)  Format all real number outputs. 
+* Lab 3:   Chp2     Due: Tues., Jan. 29th
+Problem A: Antique Toy Inventory .  Objectives: Creating classes, passing parameters to objects from a driver, retrieving data from an object. 
+Write a class named AntiqueToys which represents an object that tracks a particular toy in your collection of antique toys.  It has the following attributes: description, maker, year made, value.
+Write appropriate mutator (set) methods which update the attribute values, and accessor (get) methods which return the attribute values.  Create a driver program which creates three toy objects, stores the following values in each, and then displays the values for each toy.  Read at least one toy's data from the keyboard.  Data for the other two may be 'hard-coded' as literals in your driver.
+Description                Maker           Year Made      Value     
+Electric Train             Lionel            1934               $459.95
+Handcar Coin Bank   J&E Stevens  1883               $2,195.00
+Stuffed Bear               Steiff              1905              $214.00
+
+Problem B: Football Game Tickets   Objectives: Using boolean data type in a class 
+Write a class named FootballTickets which represents an object that tracks whether a particular football game has tickets available or not.  It should have a single attribute named 'available' whose initial status is false, ie. meaning 'not available'.  Create three methods, one to set the attribute's status to true, ie. meaning 'available', a second method to set it to false, ie. 'not available', and a third method to report its status.
+   Create a driver program which instantiates three objects for UofO's football season named for Homecoming, StateRivals (UofO vs OSU), and NextWeek's game.  First create a report which shows the status of the three objects that are created in the form of a question. (example: "Tickets are available for the UofO/OSU game? false").  Next, make the Homecoming and StateRivals tickets available for sale, but set the NextWeek tickets to not available and report the status of all three again.  Finally, the Homecoming game tickets are sold out, and the NextWeek's tickets become available. Set these, and then report the status of the three games again.
+

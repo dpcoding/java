@@ -1,0 +1,23 @@
+Lab7
+Problem A: Static Year 2012. Objectives: Understanding & using Static Methods.
+Rewrite the Year2012 class from Lab5 as a 'static' class, ie. with all methods defined as static. Add these additional static methods: 
+1) LongDateForm which returns a String in the form 'Month DD, YYYY', ex. October 2, 2012, 
+2) ShortDateForm which returns a String in the form "DD MON YYYY", example 04 JUL 2012, 3)USSixDigitForm which returns a String in the form "DD/MM/YY", and 
+4) EuroSixDigitForm which returns a String in the form "MM/DD/YY".
+Re-design your tester application to print out these additional forms of a date in addition to the previous DayOfTheYear and DayOfTheWeek. Use the following five dates for the final run that you turn in: Apr.1st, Feb. 29th, Aug.3rd, Oct.30th, and Dec.31st.
+
+Problem B: Pacific Ring of Fire Volcanoes. Objectives: Understand passing Objects - making & using an equals, toString, compareTo methods, plus a copy constructor.
+Create a Volcano class with attributes for name, the country(or continent) in which it resides, it's height(in feet), Year of last major eruption, and it's type(shape). For this problem, there will be 'get' methods, but not 'set' methods - these volcanoes are not updateable, but completely defined when constructed. You will define two constructors. The first constructor will have as it's parameters all attribute data to create a volcano. The second - a copy constructor, will take one argument, a Volcano object from which all attribute data will be derived. 
+Additional methods will be: 
+1) a toString method which returns a string with all of the volcano's information nicely formatted, 2) an equals methods which returns a boolean value of true if the name, country, and height are equal, otherwise it will return false, 
+3) a compareTo method which compares the heights of the two volcanoes and returns an int value of -1 when the volcano is shorter than the argument being sent, a 0 if the volcanoes are the same height, and +1 if the volcano is taller than the argument being sent. Make sure to exercise the get methods for retrieving information about the object that is sent to the method.
+Create a tester/application which instantiates two volcanoes using information entered from the keyboard. Using the equals method, display whether the two volcanoes are equivalent. If they are not equal, call the compareTo method and display which volcano is bigger and which is smaller. Then use the toString method to display each volcano's information. Finally use the copy constructor to create a third volcano and repeat the above three steps using the new copy and the original volcano from which it was created. Turn in at least 2 executions with different data. For data, you may use any of the following:
+Name, Location, Current Height, Last Eruption, Type/Shape
+(Country/Continent) (Major) 
+Mt Erebus Antarctica 12,448 2011 Polygentic-Strato
+Krakatoa Indonesia 2,667 2011 Caldera
+Santa Maria Guatemala 12,375 2011 Strato 
+Mt Wrangell U.S.-Alaska 14,163 2002 Shield
+Changbasishan China/N.Korea 9,003 1903 Strato
+Mt Pinatubo Philippines 4,875 1993 Strato 
+
